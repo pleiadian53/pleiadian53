@@ -21,7 +21,7 @@ I publish as **Po-Hsiang Chiu** and go by **Barnett Chiu** — both resolve to
 
 More than six projects are active at any time, and GitHub pins only six. Here is the whole map.
 
-### RNA therapeutics &nbsp;·&nbsp; active
+### RNA Therapeutics &nbsp;·&nbsp; active
 
 Two halves of one question: **where does splicing go, and what survives?**
 
@@ -31,7 +31,7 @@ Two halves of one question: **where does splicing go, and what survives?**
 | **[meta-spliceai](https://github.com/pleiadian53/meta-spliceai)** | The foundation-adaptor meta-learning predecessor. |
 | **nmdiff** *(private)* | Self-supervised quantification of nonsense-mediated decay efficiency per transcript. No labelled dataset exists at scale, so the *labelling rule itself* becomes an interpretable parameter vector, selected by whether its labels are predictable from a disjoint view — expression labels, structure predicts. |
 
-### Generative & self-supervised modeling &nbsp;·&nbsp; active
+### Generative & Self-Supervised Modeling &nbsp;·&nbsp; active
 
 Novel methods, developed modality-agnostically and aimed at computational biology broadly — gene
 expression, perturbation response, in-silico experimentation — not only at the RNA work above.
@@ -43,7 +43,7 @@ expression, perturbation response, in-silico experimentation — not only at the
 | **[GRL](https://github.com/pleiadian53/GRL)** | Generalized reinforcement learning — actions as *operators* on state space, not discrete symbols. The formalism ssl-lab's world-model line builds on. — [docs](https://pleiadian53.github.io/GRL/) · [arXiv:2208.04822](https://arxiv.org/abs/2208.04822) |
 | **[causal-bio-lab](https://github.com/pleiadian53/causal-bio-lab)** | Causal inference, discovery, and representation learning for drug discovery and target ID. |
 
-### Agentic systems
+### Agentic Systems
 
 | | |
 |---|---|
@@ -51,7 +51,7 @@ expression, perturbation response, in-silico experimentation — not only at the
 | **openclaw-py** *(private)* | A typed Python SDK for an agent OS, and the use cases that earned it: scheduled research digests, per-topic agent routing, pre-flight migration checks, and semantic memory *measured* rather than trusted. |
 | **[llm-lab](https://github.com/pleiadian53/llm-lab)** | Pre-training and post-training building blocks — SFT, DPO, RLHF, alignment — for computational biology. |
 
-### Clinical & health data
+### Clinical & Health Data
 
 | | |
 |---|---|
