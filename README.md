@@ -59,10 +59,16 @@ expression, perturbation response, in-silico experimentation — not only at the
 | **[loinc-predictor](https://github.com/pleiadian53/loinc-predictor)** | Three-stage retrieval-and-ranking for LOINC code prediction and reliability assessment. |
 | **[cf-ensemble](https://github.com/pleiadian53/cf-ensemble)** | Ensemble learning through latent-factor collaborative filtering, for disease risk modeling and phenotyping. — [docs](https://pleiadian53.github.io/cf-ensemble/) |
 
-Also here: [pgm-lab](https://github.com/pleiadian53/pgm-lab) (probabilistic graphical models, for
-computational biology *and* physics), [probability-lab](https://github.com/pleiadian53/probability-lab),
+### Other Projects &nbsp;·&nbsp; incubating
+
+| | |
+|---|---|
+| **[pgm-lab](https://github.com/pleiadian53/pgm-lab)** | Probabilistic graphical models — a reusable library of PGM building blocks plus research into novel methods, aimed at computational biology *and* physics. |
+| **protein-ml-lab** *(not public yet)* | The protein-ML stack: protein language models (ESM), structure prediction in the AlphaFold lineage, generative design (RFdiffusion, ProteinMPNN, Chroma), and the frontier questions in biology foundation models. |
+
+Earlier work: [probability-lab](https://github.com/pleiadian53/probability-lab),
 [biographlab](https://github.com/pleiadian53/biographlab), [combio-lab](https://github.com/pleiadian53/combio-lab),
-[pytorch-lab](https://github.com/pleiadian53/pytorch-lab), and earlier work.
+[pytorch-lab](https://github.com/pleiadian53/pytorch-lab), and more on the profile.
 
 ---
 
