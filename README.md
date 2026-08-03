@@ -1,15 +1,15 @@
-# Po-Hsiang (Barnett) Chiu
+# Barnett Chiu
 
 **Independent research scientist — end-to-end AI/ML systems for scientific discovery.** New York.
 
-I build the whole stack — models, data pipelines, GPU infrastructure, and the application layer —
-as researcher, engineer, and product owner, taking ambiguous scientific problems from first
-principles to implementation. Current work is in **computational biology**, on two fronts that
+I build the whole stack — models, data pipelines, GPU infrastructure, and the application
+layer — taking ambiguous scientific problems from first principles to working implementation,
+as researcher, engineer, and product owner. Current work is in **computational biology**, on two fronts that
 feed each other: developing generative and self-supervised methods (VAE families, diffusion, flow
 matching, JEPA) and agentic AI, and applying them to gene regulation, RNA splicing and decay, and
 perturbation modeling.
 
-I publish as **Po-Hsiang Chiu** and go by **Barnett Chiu** — both resolve to
+I go by **Barnett Chiu** and publish as **Po-Hsiang Chiu** — both resolve to
 [ORCID 0000-0001-8816-9799](https://orcid.org/0000-0001-8816-9799).
 
 🌐 **[pleiadian53.github.io](https://pleiadian53.github.io/)** &nbsp;·&nbsp;
@@ -27,9 +27,9 @@ Two halves of one question: **where does splicing go, and what survives?**
 
 | | |
 |---|---|
-| **[agentic-spliceai](https://github.com/pleiadian53/agentic-spliceai)** | Model-agnostic adaptive splice-site prediction and novel isoform discovery. Extends *any* per-nucleotide scorer with meta-learning adaptors, multimodal context (conservation, chromatin, RNA-seq junctions, RBP binding), and an agentic reasoning layer over variant databases, tissue/tumour RNA-seq, and the literature. — [docs](https://pleiadian53.github.io/agentic-spliceai/) · [DOI](https://doi.org/10.5281/zenodo.21696681) |
+| **[agentic-spliceai](https://github.com/pleiadian53/agentic-spliceai)** | Model-agnostic adaptive splice-site prediction and novel isoform discovery. Extends *any* per-nucleotide scorer with meta-learning adaptors, multimodal context (conservation, chromatin, RNA-seq junctions, RBP binding), and an agentic reasoning layer over variant databases, tissue/tumor RNA-seq, and the literature. — [docs](https://pleiadian53.github.io/agentic-spliceai/) · [DOI](https://doi.org/10.5281/zenodo.21696681) |
 | **[meta-spliceai](https://github.com/pleiadian53/meta-spliceai)** | The foundation-adaptor meta-learning predecessor. |
-| **nmdiff** *(private)* | Self-supervised quantification of nonsense-mediated decay efficiency per transcript. No labelled dataset exists at scale, so the *labelling rule itself* becomes an interpretable parameter vector, selected by whether its labels are predictable from a disjoint view — expression labels, structure predicts. |
+| **nmdiff** *(private)* | Self-supervised quantification of nonsense-mediated decay efficiency per transcript. No labeled dataset exists at scale, so the *labeling rule itself* becomes an interpretable parameter vector, selected by whether its labels are predictable from a disjoint view — expression labels, structure predicts. |
 
 ### Generative & Self-Supervised Modeling &nbsp;·&nbsp; active
 
