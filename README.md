@@ -6,8 +6,9 @@ I build the whole stack — models, data pipelines, GPU infrastructure, and the 
 layer — taking ambiguous scientific problems from first principles to working implementation,
 as researcher, engineer, and product owner. Current work is in **computational biology**, along
 two independent lines: generative and self-supervised methods (VAE families, diffusion, flow
-matching, JEPA) plus agentic AI, modality-agnostic and aimed at computational biology broadly;
-and **RNA therapeutics** — splicing and decay — which began at Envisagenics.
+matching, JEPA), modality-agnostic and aimed at computational biology broadly; and **RNA
+therapeutics** — splicing and decay — which began at Envisagenics. The agentic work belongs to
+the second: agentic-spliceai is base, meta, and agentic layers, and the third is the point.
 
 I go by **Barnett Chiu** and publish as **Po-Hsiang Chiu** — both resolve to
 [ORCID 0000-0001-8816-9799](https://orcid.org/0000-0001-8816-9799).
@@ -27,7 +28,7 @@ Two halves of one question: **where does splicing go, and what survives?**
 
 | | |
 |---|---|
-| **[agentic-spliceai](https://github.com/pleiadian53/agentic-spliceai)** | Model-agnostic adaptive splice-site prediction and novel isoform discovery. Extends *any* per-nucleotide scorer with meta-learning adaptors, multimodal context (conservation, chromatin, RNA-seq junctions, RBP binding), and an agentic reasoning layer over variant databases, tissue/tumor RNA-seq, and the literature. — [docs](https://pleiadian53.github.io/agentic-spliceai/) · [DOI](https://doi.org/10.5281/zenodo.21696681) |
+| **[agentic-spliceai](https://github.com/pleiadian53/agentic-spliceai)** | Model-agnostic adaptive splice-site prediction and novel isoform discovery, in three layers: **base** (per-nucleotide scores from *any* foundation model), **meta** (adapts them with conservation, chromatin, RNA-seq junctions, RBP binding), and **agentic**. The third is the point — splicing is context-dependent and its evidence is incomplete (ENCODE eCLIP covers ~150 RBPs against the ~1,500 in the human genome), so the agent reaches across variant databases, tissue/tumor RNA-seq and the literature not only to check a predicted site but to find evidence that would support one. — [docs](https://pleiadian53.github.io/agentic-spliceai/) · [DOI](https://doi.org/10.5281/zenodo.21696681) |
 | **[meta-spliceai](https://github.com/pleiadian53/meta-spliceai)** | The foundation-adaptor meta-learning predecessor. |
 | **nmdiff** *(private)* | Self-supervised quantification of nonsense-mediated decay efficiency per transcript. No labeled dataset exists at scale, so the *labeling rule itself* becomes an interpretable parameter vector, selected by whether its labels are predictable from a disjoint view — expression labels, structure predicts. |
 
