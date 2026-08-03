@@ -7,8 +7,12 @@ layer — taking ambiguous scientific problems from first principles to working 
 as researcher, engineer, and product owner. Current work is in **computational biology**, along
 two independent lines: generative and self-supervised methods (VAE families, diffusion, flow
 matching, JEPA), modality-agnostic and aimed at computational biology broadly; and **RNA
-therapeutics** — splicing and decay — which began at Envisagenics. The agentic work belongs to
-the second: agentic-spliceai is base, meta, and agentic layers, and the third is the point.
+therapeutics** — splicing and decay — which began at Envisagenics.
+
+Alongside both runs **agentic AI** R&D, in agentic-ai-lab and openclaw-py. Agentic workflows suit
+scientific discovery in particular, because the ground keeps moving — assays re-run, annotations
+revised, results published between one release and the next — and a fixed pipeline has no way to
+go and look. That is why agentic-spliceai puts an agentic layer over its base and meta layers.
 
 I go by **Barnett Chiu** and publish as **Po-Hsiang Chiu** — both resolve to
 [ORCID 0000-0001-8816-9799](https://orcid.org/0000-0001-8816-9799).
