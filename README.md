@@ -5,10 +5,9 @@
 I build the whole stack — models, data pipelines, GPU infrastructure, and the application
 layer — taking ambiguous scientific problems from first principles to working implementation,
 as researcher, engineer, and product owner. Current work is in **computational biology**, along
-two lines that grew up independently: generative and self-supervised methods (VAE families,
-diffusion, flow matching, JEPA) plus agentic AI, built modality-agnostically for computational
-biology broadly; and **RNA therapeutics** — splicing and decay — which began at Envisagenics.
-The methods were not built for the RNA problems.
+two independent lines: generative and self-supervised methods (VAE families, diffusion, flow
+matching, JEPA) plus agentic AI, modality-agnostic and aimed at computational biology broadly;
+and **RNA therapeutics** — splicing and decay — which began at Envisagenics.
 
 I go by **Barnett Chiu** and publish as **Po-Hsiang Chiu** — both resolve to
 [ORCID 0000-0001-8816-9799](https://orcid.org/0000-0001-8816-9799).
